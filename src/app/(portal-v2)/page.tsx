@@ -19,7 +19,7 @@ export default function Portal() {
           <div className="w-full lg:w-2/3 lg:pl-16">
             <div className="relative h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] w-full">
               <Image
-                src="https://www.sciline.org/wp-content/uploads/2024/09/hurricane-damage-scaled.jpeg"
+                src="https://media.wired.com/photos/6334d87dd90aafbd66b0c6bc/master/pass/Science_GettyImages-1243577594-(1).jpg"
                 alt="Hurricane visualization"
                 fill
                 className="object-cover rounded-2xl"
