@@ -85,6 +85,8 @@ export default function RouteBlock() {
                             src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" 
                             alt="Forest landscape" 
                             className="w-full h-full object-cover"
+                            width={1000}
+                            height={1000}
                         />
                     </div>
                 </div>

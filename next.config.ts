@@ -31,6 +31,15 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  redirects: async () => {
+    return [
+      {
+        source: '/',
+        destination: '/nature',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
