@@ -1,6 +1,3 @@
-
-import Image from "next/image";
-import Link from "next/link";
 import RouteBlock from "@/app/components/route-block";
 
 export default function Portal() {

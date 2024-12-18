@@ -1,7 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-import RouteBlock from "@/app/components/route-block";
-
 export default function NaturePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">

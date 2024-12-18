@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
@@ -80,7 +81,7 @@ export default function RouteBlock() {
             <div className="flex-1 flex">
                 <div className="w-1/2 relative flex items-center justify-center p-8">
                     <div className={`image-container w-full h-[400px] rounded-3xl overflow-hidden transition-all duration-1000 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
-                        <img 
+                        <Image 
                             src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" 
                             alt="Forest landscape" 
                             className="w-full h-full object-cover"
